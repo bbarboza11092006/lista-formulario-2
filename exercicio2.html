@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de um usuario</title>
+</head>
+<body>
+    <p>sistema de gestão acadêmica</p>
+    <h1>manutenção de usuarios de sistema interno</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+    <p>
+    <label for="login">login</label>
+    <input type="text" name="login" id="login">
+    </p>
+
+    <p>
+    <label for="senha">senha</label>
+    <input type="password" name="senha" id="senha">
+    </p>
+
+    <p>
+    <label for="status">status</label>
+    <select name="name" id="status">
+    <option value="inativo">inativo</option>
+    <option value="ativo">ativo</option>
+    </select>
+    </p>
+
+    <p>
+    <label for="tipo">tipo</label>
+    <input type="radio" name="tipo" id="tecnico">
+    <label for="tecnico">tecnico</label> 
+    <input type="radio" name="tipo" id="professor">
+    <label for="professor">professor</label> 
+    <input type="radio" name="tipo" id="aluno">
+    <label for="aluno">aluno</label>
+    </p>
+
+    <p>
+    <label for="data de criação">data de criação</label>
+    <input type="date" name="data de criação">
+    </p>
+     
+    <P>
+    <label for="perfil">perfil</label>
+    <input type="radio" name="perfil" id="convidado">
+    <label for="convidado">convidado</label>
+    <input type="radio" name="perfil" id="administrador">
+    <label for="administrador">administrador</label>
+    </P>
+
+    <p>observações</p>
+    <p> <textarea name="observações" id="observações" cols="50" rows="4"></textarea></p>
+    <P>módulos</P>
+
+    <p>
+    <label for="perfil">perfil</label>
+    <input type="radio" name="perfil" id="convidado">
+    <label for="convidados">convidado</label>
+    <input type="radio" name="perfil" id="administrador">
+    <label for="administrador">administrador</label>
+    </p>
+
+<p>observações</p>
+<p><textarea name="observaçoes" id="" cols="50" rows="4"></textarea></p>
+<p>módulos</p>
+
+<p>
+<input type="checkbox" name="módulo" id="compras">
+<label for="compras">compras</label>
+<input type="checkbox" name="módulo" id="bliblioteca">
+<label for="bliblioteca">bliblioteca</label>
+<input type="checkbox" name="módulo" id="academico">
+<label for="academico">academico</label>
+ </p>
+
+ <p>
+<input type="checkbox" name="módulos" id="documentação">
+<label for="documentação">documentação</label> 
+<input type="checkbox" name="módulo" id="academico"
+ </p>
+
+
+    
+</body>
+</html>
